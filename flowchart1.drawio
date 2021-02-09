@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T08:13:43.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="cvSr44fUpXBUmm5dj5OL" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T08:22:41.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="iafxTUwPpmLq-QUbpMNX" version="14.2.9" type="github">
   <diagram name="Page-1" id="edf60f1a-56cd-e834-aa8a-f176f3a09ee4">
-    <mxGraphModel dx="856" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1498" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-1" value="Get address information including specific port number" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-1" value="Get address information including specific port number" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="760" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-2" value="Socket creation,&lt;br&gt;bind the socket,&lt;br&gt;listen any clients&lt;br&gt;successful?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-2" value="Socket creation,&lt;br style=&quot;font-size: 12px;&quot;&gt;bind the socket,&lt;br style=&quot;font-size: 12px;&quot;&gt;listen any clients&lt;br style=&quot;font-size: 12px;&quot;&gt;successful?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="735" y="250" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-6" value="&lt;b&gt;yes&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-6" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;yes&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="819.4688235294117" y="350.004705882353" as="sourcePoint" />
@@ -20,7 +20,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="819.4088235294117" y="210.00470588235294" as="sourcePoint" />
@@ -30,10 +30,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-14" value="Accept&lt;br&gt;new client?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-14" value="Accept&lt;br style=&quot;font-size: 12px;&quot;&gt;new client?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="770" y="470" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-15" value="&lt;b&gt;yes&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-15" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;yes&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="819.4088235294116" y="530.0047058823529" as="sourcePoint" />
@@ -43,10 +43,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-16" value="Receive&amp;nbsp;&lt;br&gt;well formed header?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-16" value="Receive&amp;nbsp;&lt;br style=&quot;font-size: 12px;&quot;&gt;well formed header?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="770" y="570" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-17" value="&lt;b&gt;yes&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-17" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;yes&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="819.4688235294118" y="630.0047058823529" as="sourcePoint" />
@@ -56,13 +56,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-19" value="Send header to client&lt;br&gt;Send data to client" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-19" value="Send header to client&lt;br style=&quot;font-size: 12px;&quot;&gt;Send data to client" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="760" y="670" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-20" value="Waiting for any clients connection" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-20" value="Waiting for any clients connection" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="760" y="390" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="819.4688235294118" y="430.00470588235294" as="sourcePoint" />
@@ -72,7 +72,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-24" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" target="rhoOfIDmLh_GbCxs-HQQ-20">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-24" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" target="rhoOfIDmLh_GbCxs-HQQ-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="870" y="500" as="sourcePoint" />
             <mxPoint x="890" y="410" as="targetPoint" />
@@ -83,26 +83,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-25" value="&lt;b&gt;no&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rhoOfIDmLh_GbCxs-HQQ-24">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-25" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;no&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rhoOfIDmLh_GbCxs-HQQ-24">
           <mxGeometry x="-0.8246" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-29" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-29" value="" style="endArrow=classic;html=1;fontSize=12;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="870" y="600" as="sourcePoint" />
             <mxPoint x="930" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-30" value="&lt;b&gt;no&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rhoOfIDmLh_GbCxs-HQQ-29">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-30" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;no&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="rhoOfIDmLh_GbCxs-HQQ-29">
           <mxGeometry x="-0.5896" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-31" value="Send header to client with &#39;INVALID&#39; status" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;spacing=6;" vertex="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-31" value="Send header to client with &#39;INVALID&#39; status" style="whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;spacing=6;" vertex="1" parent="1">
           <mxGeometry x="930" y="580" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-31" target="rhoOfIDmLh_GbCxs-HQQ-20">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-32" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-31" target="rhoOfIDmLh_GbCxs-HQQ-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="990" y="570" as="sourcePoint" />
             <mxPoint x="990" y="400" as="targetPoint" />
@@ -111,7 +111,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-33" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-19" target="rhoOfIDmLh_GbCxs-HQQ-20">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-33" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-19" target="rhoOfIDmLh_GbCxs-HQQ-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="700" y="720" as="sourcePoint" />
             <mxPoint x="710" y="410" as="targetPoint" />
@@ -121,162 +121,162 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-34" value="&lt;b&gt;no&lt;/b&gt;" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-34" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;no&lt;/b&gt;" style="endArrow=classic;html=1;fontSize=12;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="905" y="301" as="sourcePoint" />
             <mxPoint x="950" y="301" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-36" value="END&lt;br&gt;(Connection fail)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="950" y="280" width="100" height="40" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-36" value="END&lt;br style=&quot;font-size: 12px;&quot;&gt;(Connection fail)" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="950" y="280" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-38" target="rhoOfIDmLh_GbCxs-HQQ-39">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-38" target="rhoOfIDmLh_GbCxs-HQQ-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-38" value="Get address information including server host name and port number" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-38" value="Get address information including server host name and port number" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="155" width="135" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-39" value="Socket creation,&lt;br&gt;connect with server&lt;br&gt;successful?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="250" width="170" height="100" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-39" value="Socket creation,&lt;br style=&quot;font-size: 12px;&quot;&gt;connect with server&lt;br style=&quot;font-size: 12px;&quot;&gt;successful?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="310" y="255" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-41" value="&lt;b&gt;yes&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-41" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;yes&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1354.53" y="350.00470588235294" as="sourcePoint" />
-            <mxPoint x="1354.4988235294115" y="390.03999999999996" as="targetPoint" />
+            <mxPoint x="394.53" y="355.00470588235294" as="sourcePoint" />
+            <mxPoint x="394.49882352941154" y="395.03999999999996" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1354.44" y="390.04" />
+              <mxPoint x="394.44000000000005" y="395.04" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-42" value="&lt;b&gt;no&lt;/b&gt;" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-42" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;no&lt;/b&gt;" style="endArrow=classic;html=1;fontSize=12;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1440" y="299.5" as="sourcePoint" />
-            <mxPoint x="1485" y="299.5" as="targetPoint" />
+            <mxPoint x="480" y="304.5" as="sourcePoint" />
+            <mxPoint x="525" y="304.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-43" target="rhoOfIDmLh_GbCxs-HQQ-62">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-43" target="rhoOfIDmLh_GbCxs-HQQ-62">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1250" y="750" as="targetPoint" />
+            <mxPoint x="290" y="755" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1530" y="750" />
-              <mxPoint x="1235" y="750" />
+              <mxPoint x="570" y="755" />
+              <mxPoint x="285" y="755" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-43" value="Connection fail" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1485" y="280" width="90" height="40" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-43" value="Connection fail" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="525" y="285" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-44" value="Send a request to server&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="390" width="120" height="40" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-44" value="Send a request to server&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="335" y="395" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-45" value="Receive header from server" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="460" width="120" height="40" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-45" value="Receive header from server" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="335" y="465" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1355" y="430" as="sourcePoint" />
-            <mxPoint x="1354.5088235294115" y="460.03999999999996" as="targetPoint" />
+            <mxPoint x="395" y="435" as="sourcePoint" />
+            <mxPoint x="394.50882352941153" y="465.03999999999996" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1354.45" y="460.04" />
+              <mxPoint x="394.45000000000005" y="465.04" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1355" y="500" as="sourcePoint" />
-            <mxPoint x="1354.5088235294115" y="530.04" as="targetPoint" />
+            <mxPoint x="395" y="505" as="sourcePoint" />
+            <mxPoint x="394.50882352941153" y="535.04" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1354.45" y="530.04" />
+              <mxPoint x="394.45000000000005" y="535.04" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-54" value="Receive header from server" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="530" width="120" height="40" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-54" value="Receive header from server" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="335" y="535" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-56" value="Header status &#39;OK&#39;?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1305" y="600" width="100" height="60" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-56" value="Header status &#39;OK&#39;?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="345" y="605" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1355" y="570" as="sourcePoint" />
-            <mxPoint x="1354.5088235294115" y="600.04" as="targetPoint" />
+            <mxPoint x="395" y="575" as="sourcePoint" />
+            <mxPoint x="394.50882352941153" y="605.04" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1354.45" y="600.04" />
+              <mxPoint x="394.45000000000005" y="605.04" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8" edge="1" parent="1">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12;" edge="1" parent="1">
           <mxGeometry x="-0.5" y="10" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="1354.5" y="660" as="sourcePoint" />
-            <mxPoint x="1354.5088235294115" y="690.04" as="targetPoint" />
+            <mxPoint x="394.5" y="665" as="sourcePoint" />
+            <mxPoint x="394.50882352941153" y="695.04" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1355" y="670" />
-              <mxPoint x="1355" y="670" />
+              <mxPoint x="395" y="675" />
+              <mxPoint x="395" y="675" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-59" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1350" y="660" width="40" height="20" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-59" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="390" y="665" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-60" value="Receive data from server and write file" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="690" width="120" height="40" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-60" value="Receive data from server and write file" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="335" y="695" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-61" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-60">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-61" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-60" target="rhoOfIDmLh_GbCxs-HQQ-62">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1240" y="730" as="sourcePoint" />
-            <mxPoint x="1260" y="710" as="targetPoint" />
+            <mxPoint x="280" y="735" as="sourcePoint" />
+            <mxPoint x="300" y="715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-62" value="Has&lt;br&gt;next request?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="680" width="100" height="60" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-62" value="Has&lt;br style=&quot;font-size: 12px;&quot;&gt;next request?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="685" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-63" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rhoOfIDmLh_GbCxs-HQQ-39">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-63" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" target="rhoOfIDmLh_GbCxs-HQQ-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1160" y="709.5" as="sourcePoint" />
-            <mxPoint x="1130" y="300" as="targetPoint" />
+            <mxPoint x="180" y="715" as="sourcePoint" />
+            <mxPoint x="170" y="305" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1130" y="710" />
-              <mxPoint x="1130" y="300" />
+              <mxPoint x="170" y="715" />
+              <mxPoint x="170" y="305" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-64" value="&lt;b&gt;yes&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="690" width="40" height="20" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-64" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;yes&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="170" y="695" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-65" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-62">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-65" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-62">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1200" y="800" as="sourcePoint" />
-            <mxPoint x="1210" y="760" as="targetPoint" />
+            <mxPoint x="240" y="805" as="sourcePoint" />
+            <mxPoint x="250" y="765" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-66" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="760" width="60" height="30" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-66" value="End" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="765" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-67" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-56" target="rhoOfIDmLh_GbCxs-HQQ-62">
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-67" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="rhoOfIDmLh_GbCxs-HQQ-56" target="rhoOfIDmLh_GbCxs-HQQ-62">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1300" y="630" as="sourcePoint" />
-            <mxPoint x="1210" y="630" as="targetPoint" />
+            <mxPoint x="340" y="635" as="sourcePoint" />
+            <mxPoint x="250" y="635" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1210" y="630" />
+              <mxPoint x="250" y="635" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-68" value="&lt;b&gt;no&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1285" y="610" width="30" height="20" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-68" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;no&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="325" y="615" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-71" value="&lt;b&gt;no&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1206" y="737" width="30" height="20" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-71" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;no&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="246" y="742" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-75" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;server&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="110" width="60" height="20" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-75" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px&quot;&gt;server&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="110" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-76" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;Client&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="1325" y="110" width="60" height="20" as="geometry" />
+        <mxCell id="rhoOfIDmLh_GbCxs-HQQ-76" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;Client&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
