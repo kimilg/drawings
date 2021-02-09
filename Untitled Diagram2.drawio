@@ -1,82 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2021-02-06T13:56:30.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="llzDcN3bwNtzLTscVTOn" version="14.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T06:36:26.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="IQcF8u_l_sHL1Nnw5xHE" version="14.2.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="705" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="705" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="78961159f06e98e8-17" value="gfserver_create()" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="90" y="83" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="78961159f06e98e8-21" value="dynamically allocate memory to gfserver_t structure&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
+        <mxCell id="78961159f06e98e8-21" value="Dynamically allocate memory to gfserver_t structure&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-3" value="gfserver_t" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-3" value="gfserver_t" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="470" y="83" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-4" value="const char* _PORT;&lt;br&gt;int _maxpending;&lt;br&gt;void* _handler_arg;&lt;br&gt;gfh_error_t *_handler;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_0bRraTdc4MMUMsmxNFb-3">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-4" value="const char* _PORT;&lt;br&gt;int _maxpending;&lt;br&gt;void* _handler_arg;&lt;br&gt;gfh_error_t *_handler;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_0bRraTdc4MMUMsmxNFb-3" vertex="1">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-5" value="gfserver_set_handler()" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-5" value="gfserver_set_handler()" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="270" y="230" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-6" value="set handler function to the &#39;gfserver_t structure&#39;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_0bRraTdc4MMUMsmxNFb-5">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-6" value="set handler function to the &#39;gfserver_t structure&#39;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_0bRraTdc4MMUMsmxNFb-5" vertex="1">
           <mxGeometry y="26" width="170" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-7" value="gfserver_set_port()" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-7" value="gfserver_set_port()" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="470" y="230" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-8" value="set server port to listen to any client&#39;s connection.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_0bRraTdc4MMUMsmxNFb-7">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-8" value="set server port to listen to any client&#39;s connection.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_0bRraTdc4MMUMsmxNFb-7" vertex="1">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-9" value="gfserver_set_maxpending()" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-9" value="gfserver_set_maxpending()" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="670" y="230" width="200" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-10" value="set the number of client the server can handle.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_0bRraTdc4MMUMsmxNFb-9">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-10" value="set the number of client the server can handle.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_0bRraTdc4MMUMsmxNFb-9" vertex="1">
           <mxGeometry y="26" width="200" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-12" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_0bRraTdc4MMUMsmxNFb-7">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-12" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="_0bRraTdc4MMUMsmxNFb-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="233" as="sourcePoint" />
             <mxPoint x="550" y="183" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-13" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-13" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="349.40999999999997" y="230" as="sourcePoint" />
             <mxPoint x="349" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-14" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-14" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="759.4099999999999" y="230" as="sourcePoint" />
             <mxPoint x="759" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-15" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-15" value="" style="endArrow=none;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="210" as="sourcePoint" />
             <mxPoint x="760" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-16" value="gfserver_serve()" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-16" value="gfserver_serve()" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="300" y="360" width="510" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-17" value="With given port number, create socket and bind it and listen to any client&#39;s contact.&lt;br&gt;&lt;br&gt;If there is a contact from a client, accept it to receive a request.&amp;nbsp;&lt;br&gt;&lt;br&gt;Check the request format. If there is any error in the form, send header with invalid status.&lt;br&gt;&lt;br&gt;If the status is &#39;OK&#39;, save the file path and hand it to handler. It will send header and data contents to the client with &#39;gfs_sendheader&#39; and &#39;gfs_send&#39; functions." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_0bRraTdc4MMUMsmxNFb-16">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-17" value="1. With given port number, create socket and bind it and listen to any client&#39;s contact.&lt;br&gt;&lt;br&gt;2. If there is a contact from a client, accept it to receive a request.&amp;nbsp;&lt;br&gt;&lt;br&gt;3. Check the request format. If there is any error in the form, send header with invalid status.&lt;br&gt;&lt;br&gt;4. If the status is &#39;OK&#39;, save the file path and hand it to handler. It will send header and data contents to the client." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_0bRraTdc4MMUMsmxNFb-16" vertex="1">
           <mxGeometry y="26" width="510" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-20" value="gfcontext_t" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-20" value="gfcontext_t" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="40" y="230" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-21" value="Keep socket file descriptor in this structure for handler to deal with send header and data." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_0bRraTdc4MMUMsmxNFb-20">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-21" value="Keep socket file descriptor in this structure for handler to deal with send header and data." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_0bRraTdc4MMUMsmxNFb-20" vertex="1">
           <mxGeometry y="26" width="160" height="74" as="geometry" />
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-22" value="" style="endArrow=classic;html=1;entryX=-0.033;entryY=0.267;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_0bRraTdc4MMUMsmxNFb-4">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-22" value="" style="endArrow=classic;html=1;entryX=-0.033;entryY=0.267;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="_0bRraTdc4MMUMsmxNFb-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="130" as="sourcePoint" />
             <mxPoint x="300" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_0bRraTdc4MMUMsmxNFb-25" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="_0bRraTdc4MMUMsmxNFb-6">
+        <mxCell id="_0bRraTdc4MMUMsmxNFb-25" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="_0bRraTdc4MMUMsmxNFb-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="200" y="280" as="sourcePoint" />
             <mxPoint x="250" y="230" as="targetPoint" />
