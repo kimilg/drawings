@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-09T04:02:35.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="5qfg2qmWGjijE7qoAQW3" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T04:09:58.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="vS2Lg80t1hyq1KrzrdbM" version="14.2.9" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="856" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -13,26 +13,102 @@
           <mxGeometry y="26" width="160" height="64" as="geometry" />
         </mxCell>
         <mxCell id="GjrDyQAVKf6lhexH7Aaa-2" value="&lt;span style=&quot;font-size: 15px&quot;&gt;gfcrequest_t structure&lt;/span&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="530" y="83" width="200" height="220" as="geometry">
+          <mxGeometry x="430" y="83" width="200" height="220" as="geometry">
             <mxRectangle x="90" y="83" width="140" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GjrDyQAVKf6lhexH7Aaa-3" value="&lt;font style=&quot;font-size: 14px&quot;&gt;const char* _SERVER;&lt;br&gt;const char* _PORT;&lt;br&gt;const char* _PATH;&lt;br&gt;void* _writefunc;&lt;br&gt;void* _handlerarg;&lt;br&gt;void* _headerfunc;&lt;br&gt;void* _headerarg;&lt;br&gt;gfstatus_t _status;&lt;br&gt;size_t _recvbytes;&lt;br&gt;size_t _filelen;&lt;br&gt;int sockfd;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GjrDyQAVKf6lhexH7Aaa-2">
           <mxGeometry y="26" width="200" height="194" as="geometry" />
         </mxCell>
-        <mxCell id="GjrDyQAVKf6lhexH7Aaa-4" value="" style="endArrow=classic;html=1;entryX=-0.028;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-4" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="255.6" y="170" as="sourcePoint" />
-            <mxPoint x="530.0000000000001" y="169.86200000000008" as="targetPoint" />
+            <mxPoint x="420" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GjrDyQAVKf6lhexH7Aaa-5" value="&lt;font style=&quot;font-size: 15px&quot;&gt;gfc_set_server()&lt;/font&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="190" y="360" width="160" height="90" as="geometry">
+          <mxGeometry x="50" y="380" width="160" height="90" as="geometry">
             <mxRectangle x="90" y="83" width="140" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GjrDyQAVKf6lhexH7Aaa-6" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Set server host name in the structure.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GjrDyQAVKf6lhexH7Aaa-5">
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-6" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Set server host name in the structure&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GjrDyQAVKf6lhexH7Aaa-5">
           <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-9" value="&lt;font style=&quot;font-size: 15px&quot;&gt;gfc_set_path()&lt;/font&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="250" y="380" width="160" height="90" as="geometry">
+            <mxRectangle x="90" y="83" width="140" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-10" value="&lt;span style=&quot;font-size: 14px&quot;&gt;Set file destination path in the structure&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GjrDyQAVKf6lhexH7Aaa-9">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-11" value="&lt;font style=&quot;font-size: 15px&quot;&gt;gfc_set_port()&lt;/font&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="450" y="380" width="160" height="90" as="geometry">
+            <mxRectangle x="90" y="83" width="140" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-12" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Set port number in the structure&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GjrDyQAVKf6lhexH7Aaa-11">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-13" value="&lt;font style=&quot;font-size: 15px&quot;&gt;gfc_set_writefunc()&lt;/font&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="650" y="380" width="180" height="90" as="geometry">
+            <mxRectangle x="90" y="83" width="140" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-14" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Set a &#39;write function&#39; in the structure&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GjrDyQAVKf6lhexH7Aaa-13">
+          <mxGeometry y="26" width="180" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-15" value="&lt;font style=&quot;font-size: 15px&quot;&gt;gfc_set_writearg()&lt;/font&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="870" y="380" width="180" height="90" as="geometry">
+            <mxRectangle x="90" y="83" width="140" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-16" value="&lt;span style=&quot;font-size: 14px&quot;&gt;Set an argument in the &#39;write function&#39; in the structure&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GjrDyQAVKf6lhexH7Aaa-15">
+          <mxGeometry y="26" width="180" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-17" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GjrDyQAVKf6lhexH7Aaa-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="353" as="sourcePoint" />
+            <mxPoint x="530" y="303" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-18" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="380" as="sourcePoint" />
+            <mxPoint x="120" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-19" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329.28999999999996" y="380" as="sourcePoint" />
+            <mxPoint x="329" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-20" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="739.29" y="380" as="sourcePoint" />
+            <mxPoint x="739" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-21" value="" style="endArrow=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="380" as="sourcePoint" />
+            <mxPoint x="960" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-22" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="340" as="sourcePoint" />
+            <mxPoint x="960" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-23" value="&lt;font style=&quot;font-size: 15px&quot;&gt;gfc_perform()&lt;/font&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="330" y="510" width="400" height="170" as="geometry">
+            <mxRectangle x="90" y="83" width="140" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GjrDyQAVKf6lhexH7Aaa-24" value="&lt;span style=&quot;font-size: 14px&quot;&gt;1. Get server address and connect with server.&lt;br&gt;&lt;br&gt;2. Send a request to server.&lt;br&gt;&lt;br&gt;3. Receive reply from server.&lt;br&gt;&lt;br&gt;4. If status is &#39;OK&#39;, receive all the file contents and write them using the &#39;write function&#39; in the structure.&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="GjrDyQAVKf6lhexH7Aaa-23">
+          <mxGeometry y="26" width="400" height="144" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
