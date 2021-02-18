@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T01:12:55.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="jEuAilQ0OguB2hHzgVqI" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-18T02:21:37.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="iBGk6vtL2FHSyWtHqnCa" version="14.3.2" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="705" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="599" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="78961159f06e98e8-17" value="Thread Pool" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="90" y="83" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="78961159f06e98e8-21" value="Dynamically allocate threads.&lt;br&gt;&lt;br&gt;&lt;b&gt;&quot;pthread nthreads&quot;&lt;/b&gt; : Number of threads&lt;br&gt;&lt;br&gt;&lt;b&gt;&quot;worker_func()&quot; &lt;/b&gt;: Worker thread : loop inside&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
+        <mxCell id="78961159f06e98e8-21" value="Dynamically allocate threads.&lt;br&gt;&lt;br&gt;&lt;b&gt;&quot;int nthreads&quot;&lt;/b&gt; : Number of threads&lt;br&gt;&lt;br&gt;&lt;b&gt;&quot;worker_func()&quot; &lt;/b&gt;: Worker thread : loop inside&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="78961159f06e98e8-17" vertex="1">
           <mxGeometry y="26" width="160" height="134" as="geometry" />
         </mxCell>
         <mxCell id="bU6Ye77IemriyfPlAk-k-10" value="" style="endArrow=classic;html=1;" parent="78961159f06e98e8-17" edge="1">
@@ -112,7 +112,7 @@
         <mxCell id="bU6Ye77IemriyfPlAk-k-29" value="- Dynamically allocate structure &quot;req_info&quot;&lt;br&gt;&lt;br&gt;- If the number of requests in the queue and thread number is same, wait.&lt;br&gt;&lt;br&gt;- Enqueue requests in the queue.&lt;br&gt;&lt;br&gt;- Broadcast to waiting worker threads" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bU6Ye77IemriyfPlAk-k-28" vertex="1">
           <mxGeometry y="26" width="160" height="194" as="geometry" />
         </mxCell>
-        <mxCell id="gbNcg14Oe8Wp17rSS50C-1" value="" style="endArrow=classic;html=1;exitX=-0.004;exitY=0.836;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.451;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bU6Ye77IemriyfPlAk-k-29" target="bU6Ye77IemriyfPlAk-k-12">
+        <mxCell id="gbNcg14Oe8Wp17rSS50C-1" value="" style="endArrow=classic;html=1;exitX=-0.004;exitY=0.836;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.451;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bU6Ye77IemriyfPlAk-k-29" target="bU6Ye77IemriyfPlAk-k-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="670" as="sourcePoint" />
             <mxPoint x="140" y="760" as="targetPoint" />
