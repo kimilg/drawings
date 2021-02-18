@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T01:56:29.526Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="F76nJfLgvrUcQF3QI3pq" version="14.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-18T02:03:53.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="W3eB0kIoblGw5fTAvsaR" version="14.3.2" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="705" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -11,10 +11,37 @@
           <mxGeometry y="26" width="160" height="144" as="geometry" />
         </mxCell>
         <mxCell id="bvrEzh-9IHcxVxrKS4RD-1" value="Shared Resources" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="350" y="83" width="160" height="170" as="geometry" />
+          <mxGeometry x="310" y="83" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="bvrEzh-9IHcxVxrKS4RD-7" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.103;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="bvrEzh-9IHcxVxrKS4RD-1" target="bvrEzh-9IHcxVxrKS4RD-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="42" as="sourcePoint" />
+            <mxPoint x="180" y="-8" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bvrEzh-9IHcxVxrKS4RD-2" value="&lt;b&gt;&quot;steque_t steque&quot; &lt;/b&gt;: Requests enqueued in this storage.&lt;br&gt;&lt;b&gt;&quot;int num&quot;&lt;/b&gt; : Number of threads.&lt;br&gt;&lt;b&gt;&quot;int cnt&quot;&lt;/b&gt; : Index of current thread.&lt;br&gt;&lt;b&gt;&quot;int *waiting&quot;&lt;/b&gt; : The status of current worker thread.&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bvrEzh-9IHcxVxrKS4RD-1">
           <mxGeometry y="26" width="160" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="bvrEzh-9IHcxVxrKS4RD-3" value="Mutex and &lt;br&gt;Condition Variable" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="300" y="270" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bvrEzh-9IHcxVxrKS4RD-4" value="&lt;b&gt;mutex m_sync&lt;br&gt;condition variable *my_cond&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bvrEzh-9IHcxVxrKS4RD-3">
+          <mxGeometry y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bvrEzh-9IHcxVxrKS4RD-5" value="Structure - req_info" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="530" y="111" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bvrEzh-9IHcxVxrKS4RD-6" value="&lt;b&gt;&quot;int id&quot;&lt;/b&gt; : Thread id.&lt;br&gt;&lt;b&gt;&quot;gfcontext_t *ctx&quot;&lt;/b&gt;&amp;nbsp;: Context information used when sending header and data file to client.&lt;br&gt;&lt;b&gt;&quot;const char *path&quot;&lt;/b&gt; : file path in server side" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="bvrEzh-9IHcxVxrKS4RD-5">
+          <mxGeometry y="26" width="160" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="bvrEzh-9IHcxVxrKS4RD-8" value="" style="endArrow=classic;html=1;exitX=0.002;exitY=0.772;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="78961159f06e98e8-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="345" as="sourcePoint" />
+            <mxPoint x="60" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
